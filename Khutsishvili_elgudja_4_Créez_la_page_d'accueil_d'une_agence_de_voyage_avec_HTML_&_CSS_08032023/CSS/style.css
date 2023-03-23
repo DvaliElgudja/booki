@@ -101,6 +101,7 @@ header {
 
 .nav-link {
     display: flex;
+    border-top: 2px solid transparent;
     }
 
 .nav-link a {
@@ -109,8 +110,8 @@ header {
     color: black
 }
 
-.nav-link :hover {
-    border-top: solid 2px var(--main-color);
+.nav-link:hover {
+    border-top:  2px solid var(--main-color);
     color: var(--main-color);
 }
 
